@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="h-100 d-flex align-items-center justify-content-center">
+
+    <img src="{% static 'img/logo_vira.png' %}" width="500" height="250" alt="logo" class="rounded mx-auto d-block">
+
+</div>
+
+
+<div class="container mg-8">
+
+    <div class="row">
+        <div class="col">
+            <div class="card text-center align-items-center ">
+
+                <div class="h-100 d-flex align-items-center justify-content-center mt-8">
+                    <img src="{% static 'img/aboutus.png'%}" width="90%" height="250" class="rounded mx-auto d-block" alt="aboutus" style="margin: 10px;"> 
+                </div>
+
+               <p >Vira Restaurant is a culinary haven nestled in the heart of the city, offering a delightful fusion of global flavors with a focus on local ingredients. Known for its warm ambiance and attentive service.</p> 
+                
+               <a href="/about" class="btn btn-primary" style="display: block; width: 50%; margin: 20px; text-align: center; text-decoration: none; color: white;">About us</a>
+ 
+            </div>
+        </div>
+
+  <div class="col">
+        <div class="card text-center align-items-center ">
+
+            <div class="h-100 d-flex align-items-center justify-content-center mt-8">
+                <img src="{% static 'img/Menu_logo.png'%}" width="90%" height="250" class="rounded mx-auto d-block" alt="aboutus" style="margin: 10px;"> 
+  </div>
+<p>
+
+    Our menu is a culinary journey curated to delight diverse tastes.
+    From delectable appetizers that tease the palate to carefully crafted entrees showcasing global influences .
+
+</p>
+
+           <button class="btn btn-primary" style="width: 50%; margin:20px;" > Our Menu  </button>
+        </div>
+    </div>
+
+    </div>
+
+
+    <div class="row" style="margin: 30px;">
+        <div class="col">
+            <div class="card text-center align-items-center ">
+                    <img src="{% static 'img/reservation.png'%}" alt="book_logo" width="50%" height="250" class="rounded mx-auto d-block" alt="aboutus" style="margin: 10px;" >
+                
+                    <p>Whether you're planning a special event, a weekend getaway, or a spontaneous adventure, our booking system is designed to cater to your needs. Discover the simplicity of planning and reserve your space now to embark on a memorable journey with us. Your next exciting experience is just a click away!</p>
+
+                    <button class="btn btn-primary" style="margin: 20px;">BOOK NOW!</button>
+                </div>
+            </div>
+
+    </div>  
+
+</div>
+{% endblock %}
